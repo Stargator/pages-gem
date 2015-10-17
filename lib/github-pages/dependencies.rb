@@ -11,7 +11,7 @@ module GitHubPages
       "jekyll-sass-converter"     => "1.5.0",
 
       # Converters
-      "kramdown"                  => "1.13.2",
+      "kramdown"                  => "1.14.0", #Changed 8/20/17
 
       # Misc
       "liquid"                    => "4.0.0",
@@ -20,11 +20,11 @@ module GitHubPages
 
       # Plugins
       "jekyll-redirect-from"   => "0.12.1",
-      "jekyll-sitemap"         => "1.0.0",
+      "jekyll-sitemap"         => "1.1.1",
       "jekyll-feed"            => "0.9.2",
       "jekyll-gist"            => "1.4.1",
       "jekyll-paginate"        => "1.1.0",
-      "jekyll-coffeescript"    => "1.0.1",
+      "jekyll-coffeescript"    => "1.0.2",
       "jekyll-seo-tag"         => "2.3.0",
       "jekyll-github-metadata" => "2.9.1",
       "jekyll-avatar"          => "0.4.2",
@@ -40,7 +40,7 @@ module GitHubPages
 
       # Pin listen because it's broken on 2.1 & that's what we recommend.
       # https://github.com/guard/listen/pull/371
-      "listen"                    => "3.0.6",
+      "listen"                    => "3.1.5",
 
       # Pin activesupport because 5.0 is broken on 2.1
       "activesupport"             => "4.2.8",
@@ -73,7 +73,7 @@ module GitHubPages
         "html-pipeline" => HTML::Pipeline::VERSION,
         "sass"          => Sass.version[:number],
         "safe_yaml"     => SafeYAML::VERSION,
-        "nokogiri"      => Nokogiri::VERSION,
+        "nokogiri"      => Nokogiri::VERSION
       }
     end
   end
