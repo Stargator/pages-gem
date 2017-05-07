@@ -25,9 +25,9 @@ Gem::Specification.new do |s|
   end
 
   s.add_dependency("mercenary", "~> 0.3.6")
-  s.add_dependency("terminal-table", "~> 1.8.0")
+  s.add_dependency("terminal-table", "~> 1.8")
   s.add_development_dependency("rspec", "~> 3.6")
-  s.add_development_dependency("rainbow", "~> 2.2.2")
+  s.add_development_dependency("rainbow", "~> 2.2")
   s.add_development_dependency("pry", "~> 0.10.4")
   s.add_development_dependency("jekyll_test_plugin_malicious", "~> 0.2")
   s.add_development_dependency("rubocop", "~> 0.49.1")
